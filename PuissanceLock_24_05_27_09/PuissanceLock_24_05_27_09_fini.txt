@@ -1,0 +1,3 @@
+PuissanceLock fini
+
+ne montre pas les pions qui gagnent
