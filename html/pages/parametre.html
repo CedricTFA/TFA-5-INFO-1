@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+    <link rel="stylesheet" href="../../css/PuissanceLock.css">
+    
+    <header>
+    
+        <title>paramètres Puissance Lock</title>
+    
+    </header>
+   
+    <body>
+        <head>
+            <nav>
+
+                <!--Menu principale sous forme de tableau permettant de voyager de page en pages-->
+
+                <table class="menu_accueil">    
+                    
+                    <tr id="menu_accueil_1_ligne">
+                        
+                        <td><a href="../index.html" class="menu_accueil_1_ligne">Accueil</a></td>
+
+                        <td><a href="parametre.html" class="menu_accueil_1_ligne">Paramètres</a></td>
+
+                        <td><a href="jouer_partie_puissance_4.html" class="menu_accueil_1_ligne">Jouer</a></td>
+
+                        <td><a href="regles_puissance_4.html" class="menu_accueil_1_ligne">Règles du jeu</a></td>
+
+                        <td><a href="contact.html" class="menu_accueil_1_ligne">Contacts</a></td>
+                   
+                    </tr>
+
+                </table>
+            </nav>
+
+        </head>
+
+        <button id="sauvegarderParametres">Sauvegarder Paramètres</button>
+           
+        <table id="tableau_liste_parametres">
+            <tr class="ligne_tableau_parametres">
+                <!--Créer une cellule permettant d'entrer le nbre de ligne  --->
+                <td class="cellule_tableau_parametres"><label for="nombre_de_ligne" class="customisation_parametre_input">Nombre de lignes (min 4 | max 24):</label></td>
+                <td class="cellule_tableau_parametres"><input type="number" id="nbreDeLigne" class="customisation_parametre_input" min="4" max="24"></td>
+            
+            </tr>
+            <tr>
+                <!--Créer une cellule permettant d'entrer le nbre de Colonnes  --->
+                <td class="cellule_tableau_parametres"><label for="nombre_de_colonne" class="customisation_parametre_input">Nombre de colonnes (min 4 | max 24):</label></td>
+                <td class="cellule_tableau_parametres"><input type="number" class="customisation_parametre_input" id="nbreDeColonne" min="4" max="24"></td>
+
+            </tr>
+
+            <tr class="ligne_tableau_parametres">
+                
+                <!--Créer une cellule permettant d'entrer la puissance  --->
+                <td class="cellule_tableau_parametres"><label for="puissance" class="customisation_parametre_input">Quelle puissance voulez-vous ?(min 4 | max 7):</label></td>
+                <td class="cellule_tableau_parametres"><input type="number" class="customisation_parametre_input" id="puissance" min="4" max="7"></td>
+
+            </tr>
+
+            <tr class="ligne_tableau_parametres">
+                
+                <!--Créer une cellule permettant d'entrer la puissance  --->
+                <td class="cellule_tableau_parametres"><label for="pseudoJoueur1" class="customisation_parametre_input">Entrez le peudo du joueur1 (minimumn 1 lettre):</label></td>
+                <td class="cellule_tableau_parametres"><input type="text" class="customisation_parametre_input" id="pseudoJoueur1"></td>
+
+            </tr>
+
+            <tr class="ligne_tableau_parametres">
+                
+                <!--Créer une cellule permettant d'entrer la puissance  --->
+                <td class="cellule_tableau_parametres"><label for="pseudoJoueur2" class="customisation_parametre_input">Entrez le peudo du joueur2 (minimumn 1 lettre):</label></td>
+                <td class="cellule_tableau_parametres"><input type="text" class="customisation_parametre_input" id="pseudoJoueur2"></td>
+
+            </tr>
+
+
+        </table>
+
+
+        <footer>
+            <p>Site Développer par Elsen Cédric et Gomy Coranthin. Tout droit d'auteur leur sont accorder ©</p>
+        </footer>
+
+        <script src="../../javascript/Cedric/PuissanceLock_24_05_17_01.drawio.js"></script>
+    </body>
+
+    
+
+</html>
